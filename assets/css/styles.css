@@ -4,7 +4,7 @@ body {
     width: 100%; /* full window width */
     height: 100%;
     text-align: center;
-    background-color: aqua;
+    background-color: #02b3df;
 }
 #socials {
     position: fixed;
@@ -35,7 +35,7 @@ body {
 #bottom {
     padding-top: 1000px;
     position: sticky;
-    color: aqua;
+    color: #02b3df;
 }
 /* alternately */
 /*
