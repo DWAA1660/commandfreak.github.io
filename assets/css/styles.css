@@ -7,11 +7,15 @@ body {
     background-color: aqua;
 }
 #socials {
-    width: 99%; /* of body width */
+    position: sticky;
+    width: 100%; /* of body width */
     height: 30%;
     min-height: 40px;
     background-color: gray;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #socials>div {
     display: inline-block;
@@ -20,10 +24,19 @@ body {
     margin: auto;
     text-align: center;
     background-color: rgb(24, 21, 21);
+    text-align: center;
+    padding-top: 10px;
+    
 }
 #links {
     color: blue;
     font-size: 150%;
+}
+
+#bottom {
+    padding-top: 1000px;
+    position: sticky;
+    color: aqua;
 }
 /* alternately */
 /*
