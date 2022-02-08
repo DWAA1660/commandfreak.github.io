@@ -7,17 +7,16 @@ body {
     background-color: aqua;
 }
 #socials {
-    position: sticky;
+    position: fixed;
+    top: 10px; /* Example Valuse*/
     width: 100%; /* of body width */
-    height: 30%;
-    min-height: 40px;
+    height: 8%;
+    min-height: fit-content;
+    margin-top: auto;
     background-color: gray;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    
 }
-#socials>div {
+#socials>link {
     display: inline-block;
     width: 32%; /* of wrapper width */
     min-height: 40px;
@@ -25,7 +24,7 @@ body {
     text-align: center;
     background-color: rgb(24, 21, 21);
     text-align: center;
-    padding-top: 10px;
+    
     
 }
 #links {
